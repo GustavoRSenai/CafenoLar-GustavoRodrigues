@@ -3,12 +3,12 @@
     /* Header */
     nav ul{
         position: absolute;
-        top: 70%;
+        top: 70px;
         left: 0;
         background: #333;
         width: 100%;
         overflow: hidden;
-        transition: max-height 0.55s;
+        transition: max-height 0.5s;
         z-index: 9;
     }
     nav ul li {
@@ -46,5 +46,13 @@
 
     .button{
         padding-bottom: 0px;
+    }
+
+    /* Receitas */
+
+    article{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
     }
 }
