@@ -1,0 +1,118 @@
+/* Importação font */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,482;1,14..32,482&family=Montserrat:ital@0;1&family=Teko&display=swap');
+
+/* Estilos gerais */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Define o modelo de caixa para incluir padding e borda no tamanho total do elemento */
+}
+
+body{
+    background: #1F1517;
+    color: #FFF;
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a{
+    text-decoration: none;  /* Remove a decoração dos links como o sublinhado */
+}
+
+ul{
+    list-style-type: none; /* Remove os pontos da lista ordenada */
+}
+
+/* ___________________________________ */
+/* HEADER */
+
+nav{
+    max-width: 1120px; /* Define a largura máxima do elemento */
+    margin: auto; /* Centraliza o elemento horizontalmente na tela */
+
+    padding: 1.5rem 10rem;
+    /* 1.5rem: isso define o preenchimento vertical do elemento em 1.5vezes o tamanho da fonte do elemnto raiz 
+    
+    10rem: Isso define o preenchimento horizontal do elemnteo com 10vezes o tamanhdo da fonte do elemento raiz*/
+
+    display: flex; /* torna o container escolhido flexivel */
+    flex-direction: row;/* define a direção do elemento flexivel em linha horizontal*/
+    justify-content: space-between; /* Distribui os elementos com o espaço entre eles no eixo principal */
+
+}
+.title {
+    font-family: 'Teko', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase; /* Transforma o texto para letras maiúsculas */
+}
+
+/* Estilos para o menu hamburguer */
+.menu-toggle{
+    display: none; /* não exibe em telas grandes */
+    cursor: pointer;
+}
+
+/* Imagem do hamburguer(responsividade */
+
+.menu-icon{
+    width: 28px;
+    margin-right: 20px;
+    display: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 24px; /* define o espaçamento entre os elementos em 24 pixels */
+    color: #FFF2E780; /* Define a cor do texto */
+    margin-top: 9px; /* Adiciona um espaçamento de margem superior de 9 pixels */
+    margin-left: 25px;
+    margin-left: 25px; 
+}
+
+.menu a:hover{
+    color: #FFF; /* nova cor ao passar o mouse */
+}
+
+.menu a:visited{
+    color: #FFF2E780; /* Define a cor dos links visitados */
+}
+
+@media screen and (max-width: 768px) {
+    
+    /* Header */
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        z-index: 9;
+    }
+    nav ul li {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .menu{
+        margin-left: 0px;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        margin-right: -70px;
+    }
+
+    .title{
+        margin-left: -100px;
+    }
+}

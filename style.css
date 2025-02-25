@@ -151,6 +151,10 @@ h1{
     color: #FFF;
 }
 
+hr{
+    border-color: #a45a49;
+}
+
 /* Linha marrom abaixo do titulo */
 .subtitle{
     color: #c7bab3;
