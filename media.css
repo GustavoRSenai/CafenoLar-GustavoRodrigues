@@ -1,0 +1,50 @@
+@media screen and (max-width: 768px) {
+    
+    /* Header */
+    nav ul{
+        position: absolute;
+        top: 70%;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.55s;
+        z-index: 9;
+    }
+    nav ul li {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .menu{
+        margin-left: 0px;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        margin-right: -70px;
+    }
+
+    .title{
+        margin-left: -100px;
+    }
+
+    .container{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .images{
+        column-count: 1;
+        column-gap: 0.5rem;
+    }
+    .receitas{
+        padding-top: 0px;
+    }
+
+    .button{
+        padding-bottom: 0px;
+    }
+}
