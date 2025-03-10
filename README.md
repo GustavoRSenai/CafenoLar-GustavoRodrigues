@@ -36,7 +36,7 @@ O site foi divido em Header, main e receitas com o intuito de lapidar também o 
 
 ### Site completo 
 
-<img align="center" height="350" src="https://github.com/user-attachments/assets/57e453b4-2a8e-4613-954e-3c05c58f5cf3">
-<img align="center" height="350" src="https://github.com/user-attachments/assets/9d5930ec-69b5-4b70-9953-fec00a8631a1">
+<img align="center" height="300" src="https://github.com/user-attachments/assets/57e453b4-2a8e-4613-954e-3c05c58f5cf3">
+<img align="center" height="300" src="https://github.com/user-attachments/assets/9d5930ec-69b5-4b70-9953-fec00a8631a1">
 
 > O site completo é a junção das partes mostradas anteriormente sem diferenças nos designs. A versão final e todas suas partes possuem responsividade para dispositivos movéis, caso tenha interesse <a target="_blank" href="https://github.com/GustavoRSenai/CafenoLar-GustavoRodrigues/tree/main/Site_completo">clique aqui</a>
